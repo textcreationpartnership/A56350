@@ -1,0 +1,762 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The speech or declaration of John Pym, Esquire after the recapitulation or summing up of the charge of high-treason, against Thomas, Earl of Strafford, 12 April, 1641.</title>
+            <author>Pym, John, 1584-1643.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1641</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 41 KB of XML-encoded text transcribed from 16 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A56350</idno>
+            <idno type="STC">Wing P4293</idno>
+            <idno type="STC">ESTC R16945</idno>
+            <idno type="EEBO-CITATION">11734023</idno>
+            <idno type="OCLC">ocm 11734023</idno>
+            <idno type="VID">48451</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A56350)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 48451)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 545:9)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The speech or declaration of John Pym, Esquire after the recapitulation or summing up of the charge of high-treason, against Thomas, Earl of Strafford, 12 April, 1641.</title>
+                  <author>Pym, John, 1584-1643.</author>
+               </titleStmt>
+               <extent>[2], 29 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for John Bartlet,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1641.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Bristol Public Library, Bristol, England.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Strafford, Thomas Wentworth, --  Earl of, 1593-1641.</term>
+               <term>Treason.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-12</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-01</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2011-01</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <p>
+               <pb facs="tcp:48451:1" rendition="simple:additions"/> THE SPEECH OR DECLARATION OF <hi>JOHN PYM,</hi>
+Eſquire: After the Recapitulation or ſumming up of the Charge of
+<hi>High-Treaſon, AGAINST</hi> THOMAS, EARLE OF STRAFFORD, 12. APRIL,
+1641.</p>
+            <p>
+               <hi>Publiſhed by Order of the</hi> COMMONS HOUSE.</p>
+            <p>
+               <hi>LONDON,</hi> Printed for JOHN BARTLET, 1641.</p>
+            <pb facs="tcp:48451:2"/>
+         </div>
+      </front>
+      <body>
+         <div type="speech">
+            <pb n="1" facs="tcp:48451:2"/>
+            <head>THE SPEECH OR DECLARATION OF <hi>JOHN PYM,</hi>
+               <abbr>Esq</abbr> &amp;c.</head>
+            <opener>
+               <salute>MY LORDS,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">M</seg>Any dayes have been ſpent in maintenance of the Impeach<g ref="char:EOLhyphen"/>ment
+of the <hi>Earle</hi> of <hi>Strafford,</hi> by the <hi>Houſe</hi> of
+<hi>Commons,</hi> whereby he ſtands charged with <hi>High Treaſon:</hi> And
+your <hi>Lordſhips</hi> have heard his <hi>Defence</hi> with
+<hi>Patience,</hi> and with as much favour as <hi>Iuſtice</hi> would allow:
+We have paſſed through our
+<pb n="2" facs="tcp:48451:3"/> 
+               <hi>Evidence,</hi> and the <hi>Reſult</hi> of
+all this is, that it remaines clearly proved, <hi>That the Earle of Strafford
+hath indeavoured by his words, actions, and counſels, to ſubvert the
+Fundamentall Lawes of England and Ireland, and to introduce an Arbitrary and
+Tyrannicall Government.</hi>
+            </p>
+            <p>This is the <hi>envenomed Arrow</hi> for which he inquired in the
+beginning of his <hi>Replication</hi> this day, which hath infected all his
+<hi>Bloud:</hi> This is that <hi>Intoxicating Cup,</hi> (to uſe his owne
+Metaphor) which hath tainted his <hi>Iudgement,</hi> and poiſoned his
+<hi>Heart:</hi> From hence was infuſed that <hi>Specificall Difference</hi>
+which tur<g ref="char:EOLhyphen"/>ned his <hi>Speeches,</hi> his <hi>Actions,</hi> his
+<hi>Counſels</hi> into <hi>Treaſon;</hi> Not <hi>Cumulative,</hi> as he
+expreſt it, as if many <hi>Miſdemeanours</hi> could make one
+<hi>Treaſon;</hi> but <hi>Formally</hi> and <hi>Eſſentially.</hi> It is
+the <hi>End</hi> that doth informe <hi>Actions,</hi> and doth
+<hi>ſpecificate</hi> the <hi>nature</hi> of them, making not onely
+<hi>criminall,</hi> but even <hi>indifferent words</hi> and <hi>actions</hi> to
+be <hi>Treaſon,</hi> being done and ſpoken with a <hi>Trea<g ref="char:EOLhyphen"/>ſonable
+intention.</hi>
+            </p>
+            <p>That which is given me in <hi>charge,</hi> is, to
+<pb n="3" facs="tcp:48451:3"/> ſhew the <hi>quality</hi> of the
+<hi>offence,</hi> how <hi>hainous</hi> it is in the <hi>nature,</hi> how
+<hi>miſchievous</hi> in the <hi>effect</hi> of it; which will beſt appeare
+if it be exami<g ref="char:EOLhyphen"/>ned by that <hi>Law,</hi> to which he himſelfe appea<g ref="char:EOLhyphen"/>led, that
+<hi>univerſall,</hi> that <hi>ſupreme Law, Salus po<g ref="char:EOLhyphen"/>puli:</hi> This is the
+<hi>Element</hi> of all Laws, out of which they are derived; the <hi>End</hi>
+of all Laws, to which they are deſigned, and in which they are perfected. How
+far it ſtands in op<g ref="char:EOLhyphen"/>poſition to this <hi>Law,</hi> I ſhall endeavour to
+ſhew in ſome <hi>Conſiderations</hi> which I ſhal pre<g ref="char:EOLhyphen"/>ſent to your
+Lordſhips, all ariſing out of the <hi>Evidence</hi> which hath been
+opened.</p>
+            <p>The firſt is this: It is an offence <hi>comprehen<g ref="char:EOLhyphen"/>ding</hi>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> all other offences; here you ſhall finde ſeverall
+<hi>Treaſons, Murders, Rapines, Oppreſsions, Perjuries.</hi>
+            </p>
+            <p>The <hi>Earth</hi> hath a <hi>Seminarie vertue,</hi> where<g ref="char:EOLhyphen"/>by it
+doth produce all <hi>Hearbs,</hi> and <hi>Plants,</hi> and other
+<hi>Vegetables:</hi> There is in this <hi>Crime,</hi> a <hi>Se<g ref="char:EOLhyphen"/>minarie</hi> of
+all <hi>evils</hi> hurtfull to a <hi>State;</hi> and if you conſider the
+<hi>reaſons</hi> of it, it muſt needs be ſo: The <hi>Law</hi> is that
+which puts a <hi>difference</hi>
+               <pb n="4" facs="tcp:48451:4"/> betwixt <hi>good</hi> and <hi>evill,</hi>
+betwixt <hi>juſt</hi> and <hi>unjuſt;</hi> If you take away the
+<hi>Law,</hi> all things will fall into a <hi>confuſion, every man</hi> will
+become a <hi>Law</hi> to <hi>himſelfe,</hi> which in the <hi>depraved
+condition</hi> of <hi>humane nature,</hi> muſt needs <hi>produce</hi> many
+great <hi>enormities: Luſt</hi> will become a <hi>Law,</hi> and
+<hi>Envie</hi> will become a <hi>Law, Covetouſneſſe</hi> and
+<hi>Ambiti<g ref="char:EOLhyphen"/>on</hi> will become <hi>Lawes;</hi> and what <hi>dictates,</hi> what
+<hi>deciſions</hi> ſuch <hi>Laws</hi> will produce, may eaſily be
+diſcerned in the late <hi>Government</hi> of <hi>Ireland:</hi> The
+<hi>Law</hi> hath a <hi>power</hi> to <hi>prevent,</hi> to
+<hi>reſtraine,</hi> to <hi>repaire evils;</hi> without this all kind of
+<hi>miſchiefs</hi> and <hi>diſtempers</hi> will <hi>break in upon a
+State.</hi>
+            </p>
+            <p>It is the <hi>Law</hi> that doth <hi>intitle</hi> the
+<hi>King</hi> to the <hi>Allegeance</hi> and <hi>ſervice</hi> of his
+<hi>people;</hi> it <hi>intitles</hi> the <hi>people</hi> to the
+<hi>protection</hi> and <hi>juſtice</hi> of the <hi>King. It is God alone who
+ſubſiſts by himſelfe,</hi> all other things <hi>ſubſiſt</hi> in a
+<hi>mutuall dependence</hi> and <hi>relati<g ref="char:EOLhyphen"/>on.</hi> He was a wiſe man that
+ſaid, that the King <hi>ſubſiſted</hi> by the field that is
+<hi>tilled:</hi> It is the <hi>labour</hi> of the <hi>people</hi> that
+ſupports the <hi>Crowne:</hi> If you take away the <hi>protection</hi> of the
+<hi>King,</hi> the <hi>vigour</hi> and <hi>cheerfulneſs</hi> of
+<hi>Allegeance</hi> will be ta<g ref="char:EOLhyphen"/>ken away, though the <hi>Obligation</hi>
+remaine.</p>
+            <p>
+               <pb n="5" facs="tcp:48451:4"/> The <hi>Law</hi> is the <hi>Boundarie,</hi> the
+<hi>Meaſure</hi> be<g ref="char:EOLhyphen"/>twixt the <hi>Kings Prerogative,</hi> and the <hi>Peoples
+Li<g ref="char:EOLhyphen"/>berty:</hi> Whiles theſe move in their owne <hi>Orbe,</hi> they are a
+<hi>ſupport</hi> and <hi>ſecurity</hi> to one another; The
+<hi>Prerogative</hi> a <hi>cover</hi> and <hi>defence</hi> to the
+<hi>Li<g ref="char:EOLhyphen"/>berty</hi> of the <hi>people,</hi> and the <hi>people</hi> by their
+<hi>liberty</hi> are enabled to be a <hi>foundation</hi> to the
+<hi>Preroga<g ref="char:EOLhyphen"/>tive;</hi> but if theſe <hi>bounds</hi> be ſo removed, that
+they enter into <hi>conteſtation</hi> and <hi>conflict,</hi> one of theſe
+<hi>miſchiefes</hi> muſt needs enſue: If the <hi>Pre<g ref="char:EOLhyphen"/>rogative</hi> of the
+<hi>King overwhelm</hi> the <hi>liberty</hi> of the <hi>people,</hi> it will be
+turned into <hi>Tyrannie;</hi> if <hi>liberty undermine</hi> the
+<hi>Prerogative,</hi> it will grow into <hi>Anarchie.</hi>
+            </p>
+            <p>The <hi>Law</hi> is the <hi>ſafeguard,</hi> the
+<hi>cuſtody</hi> of all <hi>private intereſt:</hi> Your <hi>Honours,</hi>
+your <hi>Lives,</hi> your <hi>Liberties</hi> and <hi>Eſtates</hi> are all in
+the <hi>keeping</hi> of the <hi>Law;</hi> without this, every man hath a like
+<hi>right</hi> to any thing, and this is the <hi>condition</hi> into which the
+<hi>Iriſh</hi> were brought by the <hi>E.</hi> of <hi>Strafford:</hi> And the
+<hi>reaſon</hi> which he gave for it, hath more <hi>miſchiefe</hi> in it
+then the thing it ſelfe, <hi>They were a Conquered Nation.</hi> There can<g ref="char:EOLhyphen"/>not
+be a word more <hi>pregnant,</hi> and <hi>fruitfull</hi>
+               <pb n="6" facs="tcp:48451:5"/> in <hi>Treaſon,</hi> then that word is: There
+are few <hi>Nations</hi> in the world that have not been <hi>con<g ref="char:EOLhyphen"/>quered;</hi>
+and no doubt but the <hi>Conquerour</hi> may give what <hi>Lawes</hi> he
+pleaſe to thoſe that are <hi>conquered:</hi> But if the <hi>ſucceeding
+Pacts</hi> and <hi>Agreements</hi> doe not limit and reſtraine that
+<hi>Right,</hi> what people can be ſecure? <hi>England</hi> hath been
+<hi>conquered,</hi> and <hi>Wales</hi> hath been <hi>con<g ref="char:EOLhyphen"/>quered,</hi> and by
+this reaſon will be in little bet<g ref="char:EOLhyphen"/>ter <hi>caſe</hi> then <hi>Ireland.</hi>
+If the <hi>King</hi> by the <hi>Right</hi> of a <hi>Conquerour</hi> gives
+<hi>Lawes</hi> to his <hi>People,</hi> ſhall not the people by the ſame
+<hi>reaſon</hi> be reſtored to the <hi>Right</hi> of the
+<hi>conquered,</hi> to recover their <hi>liberty</hi> if they can? What can be
+more <hi>hurtfull,</hi> more <hi>pernicious</hi> to both, then ſuch
+<hi>Propoſitions</hi> as theſe? And in theſe particulars is determi<g ref="char:EOLhyphen"/>ned
+the <hi>firſt Conſideration.</hi>
+            </p>
+            <p>The <hi>ſecond Conſideration</hi> is this: This
+<hi>Arbi<g ref="char:EOLhyphen"/>trary</hi> 
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> 
+               <hi>power</hi> is <hi>dangerous</hi> to
+the <hi>Kings Perſon,</hi> and <hi>dangerous</hi> to his <hi>Crown:</hi> It
+is apt to cheriſh <hi>Am<g ref="char:EOLhyphen"/>bition, uſurpation,</hi> and <hi>oppreſsion</hi>
+in great men, and to beget <hi>ſedition</hi> and <hi>diſcontent</hi> in the
+<hi>Peo<g ref="char:EOLhyphen"/>ple;</hi> and both theſe have beene, and in rea<g ref="char:EOLhyphen"/>ſon muſt ever be
+<hi>cauſes</hi> of great <hi>trouble</hi> and
+<pb n="7" facs="tcp:48451:5"/> 
+               <hi>alteration</hi> to <hi>Princes</hi> and
+<hi>States.</hi>
+            </p>
+            <p>If the <hi>Hiſtories</hi> of thoſe <hi>Eaſterne
+Countries</hi> be peruſed, where <hi>Princes</hi> order their
+<hi>affaires</hi> ac<g ref="char:EOLhyphen"/>cording to the <hi>miſchievous principles</hi> of the
+<hi>E.</hi> of <hi>Strafford, looſe and abſolved from all Rules of
+Go<g ref="char:EOLhyphen"/>vernment,</hi> they will be found to be <hi>frequent</hi> in
+<hi>combuſtions,</hi> full of <hi>Maſſacres,</hi> and of the
+<hi>tragicall ends</hi> of <hi>Princes.</hi> If any man ſhall look into our
+owne <hi>Stories,</hi> in the times when the <hi>Laws</hi> were moſt
+neglected, he ſhall find them full of <hi>Commotions,</hi> of <hi>Civill
+diſtempers;</hi> whereby the <hi>Kings</hi> that then reigned, were alwayes
+kept in <hi>want</hi> and <hi>diſtreſſe;</hi> the people conſumed with
+<hi>Civill wars:</hi> and by ſuch wicked <hi>counſels</hi> as theſe,
+ſome of our <hi>Princes</hi> have beene brought to ſuch miſerable
+<hi>ends,</hi> as no <hi>ho<g ref="char:EOLhyphen"/>neſt</hi> heart can remember without
+<hi>horrour,</hi> and <hi>earneſt Prayer,</hi> that it may never be ſo
+againe.</p>
+            <p>The third <hi>Conſideration</hi> is this, The
+<hi>ſubver<g ref="char:EOLhyphen"/>ſion</hi> 
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> of the <hi>Lawes;</hi> And this
+<hi>Arbitrary power,</hi> as it is <hi>dangerous</hi> to the <hi>Kings
+Perſon</hi> and to his <hi>Crowne,</hi> ſo is it in other reſpects very
+<hi>prejudiciall</hi>
+               <pb n="8" facs="tcp:48451:6"/> to his <hi>Majeſty</hi> in his <hi>Honour,
+Profit,</hi> and <hi>Great<g ref="char:EOLhyphen"/>neſſe;</hi> and yet theſe are the
+<hi>gildings</hi> and <hi>paintings</hi> that are put upon ſuch
+<hi>counſels;</hi> Theſe are for your <hi>Honour,</hi> for your
+<hi>ſervice;</hi> whereas in truth they are contrary to both: But if I
+ſhall take off this <hi>varniſh,</hi> I hope they ſhall then appeare in
+their owne <hi>native deformity,</hi> and therefore I deſire to conſider
+them by theſe <hi>Rules.</hi>
+            </p>
+            <p>It cannot be for the <hi>Honour</hi> of a <hi>King,</hi> that his
+<hi>ſacred Authority</hi> ſhould be uſed in the pra<g ref="char:EOLhyphen"/>ctiſe of
+<hi>injuſtice</hi> and <hi>oppreſsion;</hi> that his <hi>Name</hi> ſhould
+be applyed to <hi>patronize</hi> ſuch <hi>horrid crimes,</hi> as have beene
+repreſented in <hi>Evidence</hi> againſt the <hi>Earle of Strafford;</hi>
+and yet how fre<g ref="char:EOLhyphen"/>quently, how preſumptuouſly his <hi>Commands,</hi> his
+<hi>Letters</hi> have been vouched throughout the courſe of this
+<hi>Defence,</hi> your Lordſhips have heard. When the <hi>Iudges</hi> doe
+<hi>juſtice,</hi> it is the <hi>Kings juſtice,</hi> and this is for his
+<hi>honour,</hi> be<g ref="char:EOLhyphen"/>cauſe he is the <hi>Fountaine</hi> of <hi>juſtice;</hi>
+but when they doe <hi>injuſtice,</hi> the offence is their owne: But thoſe
+<hi>Officers</hi> and <hi>Miniſters</hi> of the King, who are moſt
+officious in the exerciſe of this
+<pb n="9" facs="tcp:48451:6"/> 
+               <hi>Arbitrarie power,</hi> they doe it commonly
+for their advantage; and when they are queſtio<g ref="char:EOLhyphen"/>ned for it, then they fly to
+the <hi>Kings intereſt,</hi> to his <hi>Direction:</hi> And truly my Lords,
+this is a very unequall <hi>diſtribution</hi> for the King, that the
+<hi>diſhonour</hi> of evill <hi>courſes</hi> ſhould be caſt up<g ref="char:EOLhyphen"/>on him,
+and they to have the advantage.</p>
+            <p>The <hi>prejudice</hi> which it brings to him in re<g ref="char:EOLhyphen"/>gard of his
+<hi>profit,</hi> is no leſſe apparent: It de<g ref="char:EOLhyphen"/>prives him of the moſt
+beneficiall, and moſt certaine <hi>Revenue</hi> of his <hi>Crowne,</hi> that
+is, the <hi>vo<g ref="char:EOLhyphen"/>luntary aids</hi> and <hi>ſupplies</hi> of his
+<hi>people;</hi> his other <hi>Revenues,</hi> conſiſting of goodly
+<hi>Demeanes,</hi> and great <hi>Manors,</hi> have by <hi>Grants</hi> been
+alienated from the <hi>Crowne,</hi> and are now exceedingly
+<hi>di<g ref="char:EOLhyphen"/>miniſhed</hi> and <hi>impaired:</hi> But this <hi>Revenue</hi> it
+can<g ref="char:EOLhyphen"/>not be <hi>ſold,</hi> it cannot be <hi>burdned</hi> with any
+<hi>Pen<g ref="char:EOLhyphen"/>ſions</hi> or <hi>Annuities,</hi> but comes intirely to the
+<hi>Crowne.</hi> It is now almoſt fifteene years ſince his Majeſty had
+any aſſiſtance from his <hi>people;</hi> and theſe illegall wayes of
+ſupplying the King were never preſt with more <hi>violence,</hi> and
+<hi>art,</hi> then they have been in this time; and yet I may upon very good
+<hi>grounds</hi> affirm, that
+<pb n="10" facs="tcp:48451:7"/> in the laſt fifteene years of Queen
+<hi>Elizabeth,</hi> ſhe received more by the <hi>Bounty</hi> and
+<hi>Affection</hi> of her <hi>Subjects,</hi> then hath come to His
+<hi>Maje<g ref="char:EOLhyphen"/>ſties Coffers</hi> by all the <hi>inordinate</hi> and <hi>rigorous
+courſes</hi> which have beene taken. And as thoſe <hi>Supplies</hi> were
+more beneficiall in the <hi>Receipt</hi> of them, ſo were they like in the
+<hi>uſe</hi> and <hi>im<g ref="char:EOLhyphen"/>ployment</hi> of them.</p>
+            <p>Another way of <hi>prejudice</hi> to his <hi>Majeſties
+profit,</hi> is this: Such <hi>Arbitrary courſes</hi> exhauſt the people,
+and diſable them, when there ſhall be occaſion, to give ſuch plentifull
+<hi>ſupplies,</hi> as otherwiſe they would doe. I ſhall need no other
+proofe of this, then the <hi>Iriſh Government</hi> under my <hi>L.</hi> of
+<hi>Strafford,</hi> where the <hi>wealth</hi> of the <hi>Kingdome</hi> is ſo
+<hi>conſumed</hi> by thoſe horrible <hi>exactions</hi> and
+<hi>burdens,</hi> that it is thought the <hi>Subſidies</hi> lately granted
+will amount to little more then halfe the <hi>proportion</hi> of the laſt
+<hi>Sub<g ref="char:EOLhyphen"/>ſidies.</hi> The two former wayes are hurtfull to the <hi>Kings
+profit,</hi> in that reſpect which they call <hi>Lucrum Ceſſans,</hi> by
+diminiſhing his re<g ref="char:EOLhyphen"/>ceipts; But there is a third, fuller of
+<hi>miſchiefe,</hi> and it is in that reſpect which they call
+<pb n="11" facs="tcp:48451:7"/> 
+               <hi>Damnum emergens,</hi> by increaſing his
+<hi>Disburſe<g ref="char:EOLhyphen"/>ments:</hi> Such <hi>irregular</hi> and <hi>exorbitant
+attempts</hi> upon the <hi>Libertie</hi> of the <hi>people,</hi> are apt to
+pro<g ref="char:EOLhyphen"/>duce ſuch miſerable <hi>diſtractions</hi> and <hi>diſtem<g ref="char:EOLhyphen"/>pers,</hi>
+as will put the <hi>King</hi> and <hi>Kingdome</hi> to ſuch vaſt
+<hi>expences</hi> and <hi>loſſes</hi> in a ſhort time, as will not be
+recovered in many yeares: Wee need not goe farre to ſeeke a proofe of this,
+theſe two laſt yeares will be a ſufficient evi<g ref="char:EOLhyphen"/>dence, within which time I
+aſſure my ſelfe, it may be proved, that more <hi>Treaſure</hi> hath
+beene waſted, more loſſe ſuſtained by his <hi>Majeſty</hi> and his
+<hi>Subjects,</hi> then was ſpent by Queene <hi>Elizabeth</hi> in all the War
+of <hi>Tyrone,</hi> and in thoſe many brave <hi>Attempts</hi> againſt the
+King of <hi>Spaine,</hi> and the royall <hi>aſsiſtance</hi> which ſhe
+gave to <hi>France,</hi> and the <hi>Low-Countries,</hi> du<g ref="char:EOLhyphen"/>ring all her
+<hi>Reigne.</hi>
+            </p>
+            <p>As for <hi>Greatneſſe,</hi> this <hi>Arbitrary power</hi> is
+apt to hinder and impaire it, not onely at home, but abroad. A
+<hi>Kingdome</hi> is a <hi>ſociety</hi> of men conjoyned under one
+Government, for the <hi>common good:</hi> The <hi>world</hi> is a ſociety of
+<hi>Kingdomes</hi> and <hi>States.</hi> The <hi>Kings greatneſſe</hi>
+               <pb n="12" facs="tcp:48451:8"/> conſiſts not onely in his <hi>Dominion</hi>
+over his <hi>Subjects</hi> at home, but in the <hi>influence</hi> which he hath
+upon <hi>States</hi> abroad; That he ſhould be great even among
+<hi>Kings,</hi> and by his <hi>wiſdome</hi> and <hi>authority</hi> ſo to
+incline and diſpoſe the af<g ref="char:EOLhyphen"/>faires of other <hi>States</hi> and
+<hi>Nations,</hi> and thoſe great <hi>events</hi> which fall out in the
+<hi>world,</hi> as ſhall be for the good of <hi>Mankind,</hi> and for the
+peculiar <hi>advantage</hi> of his owne people. This is the moſt
+<hi>glorious,</hi> and <hi>magnificent greatneſs,</hi> to be able to relieve
+<hi>diſtreſsed Princes,</hi> to ſup<g ref="char:EOLhyphen"/>port his owne <hi>friends</hi> and
+<hi>Allies,</hi> to prevent the <hi>ambitious deſignes</hi> of other
+<hi>Kings;</hi> and how much this Kingdome hath been im<g ref="char:EOLhyphen"/>paired in this kinde,
+by the late <hi>miſchievous counſels</hi> your Lordſhips beſt know, who
+at a neerer diſtance, and with a more cleare ſight, doe apprehend theſe
+publique and great affaires, then I can doe. Yet thus much I dare boldly ſay,
+that if his <hi>Maieſtie</hi> had not with great <hi>wiſdome</hi> and
+<hi>goodneſs</hi> forſaken that way wherein the <hi>Earle</hi> of
+<hi>Strafford</hi> had put him, we ſhould within a ſhort time have been
+brought into that <hi>miſerable conditi<g ref="char:EOLhyphen"/>on,</hi> as to have been
+uſeleſſe to our <hi>friends,</hi> con<g ref="char:EOLhyphen"/>temptible
+<pb n="13" facs="tcp:48451:8"/> to our <hi>enemies,</hi> and uncapable of
+undertaking any great <hi>deſigne</hi> either at home or abroad.</p>
+            <p>A fourth Conſideration is, That this Ar<g ref="char:EOLhyphen"/>bitrary,
+<milestone type="tcpmilestone" unit="unspecified" n="4"/> and Tyrannicall Power, which the <hi>E.</hi> of
+<hi>Strafford</hi> did exerciſe in his own perſon, and to which he did
+adviſe his Majeſty, is inconſiſtent with the Peace, the Wealth, the
+Proſperity of a Nation; It is deſtructive to Juſtice, the Mother of
+Peace; to Induſtry, the ſpring of Wealth; to Valour, which is the active
+vertue whereby the proſperity of a Nation can onely be procured, confirmed,
+and inlarged.</p>
+            <p>It is not only apt to take away Peace, and ſo intangle the
+Nation with Warres, but doth corrupt Peace, and puts ſuch a malignity into
+it, as produceth the Effects of warre. We need ſeek no other proofe of this,
+but the <hi>E.</hi> of <hi>Straffords</hi> Government, where the
+<hi>Iriſh,</hi> both <hi>Nobility</hi> and others, had as little
+<hi>ſecurity</hi> of their <hi>Perſons</hi> or <hi>Eſtates</hi> in this
+peaceable <hi>time,</hi> as if the <hi>Kingdome</hi> had been under the
+<hi>rage</hi> and <hi>fury</hi> of <hi>warre.</hi>
+            </p>
+            <p>
+               <pb n="14" facs="tcp:48451:9"/> And as for <hi>Induſtrie,</hi> and
+<hi>Valour,</hi> who will take pains for that, which when he hath got<g ref="char:EOLhyphen"/>ten, is
+not his own? Or who fight for that wherein he hath no other
+<hi>intereſt,</hi> but ſuch as is ſubject to the will of another? The
+<hi>Anci<g ref="char:EOLhyphen"/>ent encouragement</hi> to men that were to defend their
+<hi>Countries</hi> was this, That they were to hazard their <hi>Perſons, pro
+Aris &amp; Focis,</hi> for their <hi>Religion,</hi> and for their
+<hi>Houſes;</hi> But by this <hi>Arbitrary</hi> way which was practiſed in
+<hi>Ireland,</hi> and counſelled here, no man had any <hi>certainty,</hi>
+either of <hi>Religion,</hi> or of his <hi>Houſe,</hi> or any thing elſe to
+be his own; But beſides this, ſuch <hi>Arbitrary</hi> courſes have an ill
+ope<g ref="char:EOLhyphen"/>ration upon the <hi>courage</hi> of a Nation, by em<g ref="char:EOLhyphen"/>baſing the
+<hi>hearts</hi> of the <hi>people: A ſervile con<g ref="char:EOLhyphen"/>dition doth for the moſt
+part beget in men a ſlaviſh temper and diſpoſition. Thoſe</hi> that
+live ſo much under the <hi>Whip</hi> and the <hi>Pillory,</hi> and ſuch
+<hi>ſer<g ref="char:EOLhyphen"/>vile Engines,</hi> as were frequently <hi>uſed</hi> by the
+<hi>E.</hi> of <hi>Strafford,</hi> they may have the <hi>dregges</hi> of
+<hi>valour, ſullenneſſe,</hi> &amp; <hi>ſtubbornneſſe,</hi> which
+may make them <hi>prone</hi> to <hi>Mutinies,</hi> and <hi>diſcontents;</hi>
+but thoſe <hi>Noble</hi> and <hi>gallant affections,</hi> which put men on
+<hi>brave Deſignes</hi> and <hi>Attempts</hi> for
+<pb n="15" facs="tcp:48451:9"/> the <hi>preſervation</hi> or
+<hi>inlargement</hi> of a <hi>Kingdome,</hi> they are hardly <hi>capable</hi>
+of. Shall it be <hi>Treaſon</hi> to <hi>embaſe</hi> the <hi>Kings
+Coyne,</hi> though but a <hi>piece</hi> of <hi>twelve-pence,</hi> or
+<hi>ſixe-pence,</hi> and muſt it not needs be the <hi>effect</hi> of a
+greater <hi>Treaſon,</hi> to <hi>em<g ref="char:EOLhyphen"/>baſe</hi> the <hi>ſpirits</hi> of his
+<hi>Subjects,</hi> and to ſet a <hi>ſtamp</hi> and <hi>Character</hi> of
+<hi>ſervitude</hi> upon them, whereby they ſhall be <hi>diſabled</hi> to
+doe any thing for the ſervice of the <hi>King</hi> or
+<hi>Common-wealth?</hi>
+            </p>
+            <p>The fift <hi>Conſideration</hi> is this, That the
+<hi>exer<g ref="char:EOLhyphen"/>ciſe</hi> 
+               <milestone type="tcpmilestone" unit="unspecified" n="5"/> of this <hi>Arbitrary Government,</hi>
+in times of <hi>ſudden danger,</hi> by the <hi>invaſion</hi> of an
+<hi>enemy,</hi> will <hi>diſable</hi> his <hi>Majeſty</hi> to
+<hi>preſerve himſelfe</hi> and <hi>his Subjects</hi> from that
+<hi>danger.</hi> This is the onely <hi>pretence</hi> by which the <hi>E.</hi>
+of <hi>Strafford,</hi> and ſuch other <hi>miſchievous Counſellors</hi>
+would <hi>induce</hi> his <hi>Majeſty</hi> to make <hi>uſe</hi> of it; and
+if it be <hi>unfit</hi> for ſuch an <hi>occaſion,</hi> I know nothing that
+can be <hi>alledged</hi> in <hi>maintenance</hi> of it.</p>
+            <p>When <hi>warre threatens</hi> a <hi>Kingdome</hi> by the
+<hi>comming</hi> of a <hi>forrain Enemy,</hi> it is <hi>no time</hi> then to
+<hi>diſcontent</hi> the <hi>people,</hi> to make them <hi>weary</hi> of the
+<hi>preſent Government,</hi> and more <hi>inclinable</hi>
+               <pb n="16" facs="tcp:48451:10"/> to a <hi>Change;</hi> The <hi>ſupplies</hi>
+which are to come in this <hi>way,</hi> will be <hi>unready, uncertain;</hi>
+there can be no <hi>aſſurance</hi> of them, no <hi>dependence</hi> upon
+them, either for <hi>time</hi> or <hi>proportion:</hi> And if ſome money be
+gotten in ſuch a way, the <hi>Diſtractions, Diviſions, Diſtempers,</hi>
+which this <hi>courſe</hi> is apt to <hi>produce,</hi> will be more
+<hi>prejudici<g ref="char:EOLhyphen"/>all</hi> to the <hi>publique ſafety,</hi> then the
+<hi>ſupply</hi> can be <hi>advantagious</hi> to it; and of this we have had
+<hi>ſufficient experience</hi> the <hi>laſt Summer.</hi>
+            </p>
+            <p>The ſixt, That this <hi>crime</hi> of <hi>ſubverting</hi> the
+<milestone type="tcpmilestone" unit="unspecified" n="6"/> 
+               <hi>Laws,</hi> and <hi>introducing</hi> an
+<hi>Arbitrary</hi> and <hi>Ty<g ref="char:EOLhyphen"/>rannicall Government,</hi> is <hi>contrary</hi>
+to the <hi>Pact</hi> and <hi>Covenant</hi> betwixt the <hi>King</hi> and his
+<hi>people.</hi> That which was ſpoken of before, was the <hi>legall
+union</hi> of <hi>Allegeance</hi> and <hi>Protection;</hi> this is a
+<hi>perſonall union</hi> by <hi>mutuall agreement</hi> and
+<hi>ſtipu<g ref="char:EOLhyphen"/>lation, confirmed</hi> by <hi>oath</hi> on both <hi>ſides:</hi>
+The <hi>King</hi> and his <hi>people</hi> are <hi>obliged</hi> to one another
+in the <hi>neareſt relations;</hi> He is a <hi>Father,</hi> and a
+<hi>childe</hi> is called in <hi>Law, Pars Patris:</hi> Hee is the
+<hi>Husband</hi> of the <hi>Common-wealth,</hi> they have the <hi>ſame
+intereſts,</hi> they are <hi>inſeparable</hi> in their <hi>condition,</hi>
+be it <hi>good</hi> or <hi>evill;</hi> He is the
+<pb n="17" facs="tcp:48451:10"/> 
+               <hi>Head,</hi> they are the <hi>Body;</hi>
+there is ſuch an <hi>incor<g ref="char:EOLhyphen"/>poration</hi> as cannot be diſſolved without
+the <hi>deſtruction</hi> of both.</p>
+            <p>When <hi>Iuſtice Thorpe,</hi> in <hi>Edw.</hi> the <hi>thirds
+time,</hi> was by the <hi>Parliament condemned</hi> to <hi>death</hi> for
+<hi>Bribery,</hi> the <hi>reaſon</hi> of that Judgement is given, becauſe
+he had <hi>broken</hi> the <hi>Kings Oath,</hi> not that he had broken his own
+<hi>oath,</hi> but that he had broken the <hi>Kings oath,</hi> that
+<hi>ſolemne</hi> and <hi>great obligation,</hi> which is the
+<hi>ſecurity</hi> of the <hi>whole Kingdome:</hi> If for a Judge to take a
+ſmall <hi>ſumme</hi> in a private cauſe, was adjudged <hi>Capi<g ref="char:EOLhyphen"/>tall,</hi>
+how much greater was this <hi>offence,</hi> whereby the <hi>E.</hi> of
+<hi>Strafford</hi> hath broken the <hi>Kings Oath</hi> in the whole
+<hi>courſe</hi> of his <hi>Govern<g ref="char:EOLhyphen"/>ment</hi> in <hi>Ireland,</hi> to the
+<hi>prejudice</hi> of ſo many of his <hi>Majeſties Subjects,</hi> in their
+<hi>Lives, Liberties,</hi> and <hi>Eſtates,</hi> and to the danger of all the
+reſt?</p>
+            <p>The <hi>Doctrine</hi> of the <hi>Papiſts, Fides non eſt
+ſer<g ref="char:EOLhyphen"/>vanda cum Haereticis,</hi> is an <hi>abominable Doctrine:</hi> yet that
+other Tenet more <hi>peculiar</hi> to the <hi>Ieſu<g ref="char:EOLhyphen"/>ites</hi> is more
+<hi>pernicious,</hi> whereby <hi>Subjects</hi> are <hi>diſcharged</hi> from
+their <hi>Oath</hi> of <hi>Allegeance</hi> to
+<pb n="18" facs="tcp:48451:11"/> their <hi>Prince</hi> whenſoever the
+<hi>Pope</hi> pleaſeth; This may be added to make the <hi>third</hi> no
+leſſe <hi>miſchievous</hi> and <hi>deſtructive</hi> to <hi>humane
+ſociety,</hi> then either of the reſt; That the King is not bound by that
+<hi>Oath</hi> which he hath taken to <hi>obſerve</hi> the <hi>Laws</hi> of
+the <hi>Kingdome,</hi> but may when he ſees <hi>cauſe,</hi> lay
+<hi>Taxes</hi> and <hi>burdens</hi> up<g ref="char:EOLhyphen"/>on them without their
+<hi>conſent,</hi> contrary to the <hi>Laws</hi> and <hi>Liberties</hi> of the
+<hi>Kingdome.</hi> This hath been <hi>preached</hi> and <hi>publiſhed</hi> by
+divers; And this is that which hath been <hi>practiſed</hi> in
+<hi>Ireland</hi> by the <hi>E.</hi> of <hi>Strafford,</hi> in his
+<hi>Govern<g ref="char:EOLhyphen"/>ment there,</hi> and indeavoured to be brought into
+<hi>England,</hi> by his <hi>Counſell here.</hi>
+            </p>
+            <p>The ſeventh is this; It is an <hi>offence</hi> that is
+<milestone type="tcpmilestone" unit="unspecified" n="7"/> contrary to the <hi>end</hi> of <hi>Government;</hi> The
+<hi>end</hi> of <hi>Government</hi> was to prevent <hi>oppreſsions,</hi> to
+limit and reſtrain the exceſſive power and violence of <hi>great
+men,</hi> to <hi>open</hi> the paſſages of <hi>Iuſtice</hi> with
+<hi>indifferency</hi> towards all; This <hi>Arbitrary</hi> power is apt to
+<hi>induce</hi> and incourage all kind of <hi>inſolencies.</hi>
+            </p>
+            <p>Another <hi>end</hi> of <hi>Government</hi> is to
+<hi>preſerve</hi> men in their <hi>eſtates,</hi> to <hi>ſecure</hi> them
+in their
+<pb n="19" facs="tcp:48451:11"/> Lives and Liberties; but if this Deſigne had
+taken effect, and could have been <hi>ſetled</hi> in <hi>England,</hi> as it
+was <hi>practiſed</hi> in <hi>Ireland,</hi> no man would have had more
+certainty in his own, then power would have allowed him: But theſe two have
+been ſpoken of before, there are two behind more <hi>important,</hi> which
+have not yet been touched.</p>
+            <p>It is the <hi>end</hi> of <hi>Government,</hi> that
+<hi>vertue</hi> ſhould be <hi>cheriſht, vice ſuppreſt;</hi> but where
+this <hi>Arbitrary</hi> and <hi>unlimited power</hi> is ſet up, a way is open
+not onely for the <hi>ſecurity,</hi> but for the <hi>advancement</hi> and
+<hi>incouragement</hi> of evill; Such men as are apteſt for the execution and
+maintenance of this Power, are onely capa<g ref="char:EOLhyphen"/>ble of preferment; and others who
+will not be <hi>inſtruments</hi> of any <hi>unjuſt commands,</hi> who make
+a <hi>conſcience</hi> to doe nothing againſt the <hi>Laws</hi> of the
+<hi>Kingdome,</hi> and <hi>Liberties</hi> of the <hi>Sub<g ref="char:EOLhyphen"/>ject,</hi> are not
+onely not <hi>paſſable</hi> for <hi>imployment,</hi> but <hi>ſubject</hi>
+to much <hi>jealouſie</hi> and <hi>danger.</hi>
+            </p>
+            <p>It is the <hi>end</hi> of <hi>Government,</hi> that all
+<hi>accidents</hi> and <hi>events,</hi> all <hi>Counſels</hi> and
+<hi>Deſignes</hi> ſhould be improved to the <hi>publique good:</hi> But
+this <hi>Arbi<g ref="char:EOLhyphen"/>trary</hi>
+               <pb n="20" facs="tcp:48451:12"/> 
+               <hi>Power</hi> is apt to <hi>diſpoſe</hi>
+all to the <hi>mainte<g ref="char:EOLhyphen"/>nance</hi> of it ſelf. The <hi>wiſdome</hi> of the
+<hi>Councell-Table,</hi> the <hi>Authority</hi> of the <hi>Courts</hi> of
+Juſtice, the <hi>induſtry</hi> of all the <hi>Officers</hi> of the
+<hi>Crown</hi> have been moſt carefully <hi>exerciſed</hi> in this; the
+<hi>Learning</hi> of our <hi>Divines,</hi> the <hi>Iuriſdiction</hi> of our
+<hi>Biſhops</hi> have been moulded and diſpoſed to the ſame
+<hi>effect,</hi> which though it were begun before the <hi>E.</hi> of
+<hi>Straffords Imployment,</hi> yet it hath beene exceedingly
+<hi>furthered</hi> and <hi>ad<g ref="char:EOLhyphen"/>vanced</hi> by him.</p>
+            <p>Under this <hi>colour</hi> and <hi>pretence</hi> of
+<hi>maintai<g ref="char:EOLhyphen"/>ning</hi> the <hi>Kings Power</hi> and <hi>Prerogative</hi> many
+<hi>dangerous practiſes</hi> againſt the <hi>peace</hi> and
+<hi>ſafety</hi> of this <hi>Kingdome</hi> have been undertaken and promoted.
+The <hi>increaſe</hi> of <hi>Popery,</hi> and the favours and incouragement
+of <hi>Papiſts</hi> have been, and ſtill are a great grievance and dan<g ref="char:EOLhyphen"/>ger
+to the <hi>Kingdome:</hi> The <hi>Innovations</hi> in <hi>mat<g ref="char:EOLhyphen"/>ters</hi> of
+<hi>Religion,</hi> the <hi>uſurpations</hi> of the <hi>Clergie,</hi> the
+manifold burdens and taxations upon the people, have been a great cauſe of
+our preſent <hi>diſtempers</hi> and <hi>diſorders;</hi> and yet thoſe
+who have been chiefe <hi>Furtherers</hi> and <hi>Actors</hi> of
+<pb n="21" facs="tcp:48451:12"/> ſuch Miſchiefes, have had their Credit and
+Authority from this, That they were for<g ref="char:EOLhyphen"/>ward to <hi>maintain</hi> this Power.
+The E. of <hi>Strafford</hi> had the firſt riſe of his greatneſſe from
+this, and in his <hi>Apologie</hi> and <hi>Defence,</hi> as your
+<hi>Lordſhips</hi> have heard, this hath had a maine part.</p>
+            <p>The <hi>Royall Power,</hi> and <hi>Majeſty</hi> of
+<hi>Kings,</hi> is moſt glorious in the <hi>proſperity</hi> and
+<hi>happi<g ref="char:EOLhyphen"/>neſſe</hi> of the people; The perfection of all things
+conſiſts in the <hi>end</hi> for which they were ordained, <hi>God</hi>
+onely is his own <hi>end,</hi> all other <hi>things</hi> have a further
+<hi>end</hi> beyond <hi>themſelves,</hi> in attaining whereof their own
+happineſſe conſiſts: If the <hi>means</hi> and the <hi>end</hi> be
+ſet in <hi>oppoſition</hi> to one another, it muſt needs <hi>cauſe</hi>
+an <hi>impotency</hi> and <hi>defect</hi> of <hi>both.</hi>
+            </p>
+            <p>The eight <hi>Conſideration</hi> is, The <hi>vanity</hi> and
+<milestone type="tcpmilestone" unit="unspecified" n="8"/> 
+               <hi>abſurdity</hi> of thoſe <hi>excuſes</hi> and
+<hi>juſtifications</hi> which he made for himſelf, whereof divers
+<hi>particulars</hi> have been mentioned in the <hi>courſe</hi> of his
+<hi>Defence.</hi>
+            </p>
+            <p n="1">
+               <pb n="22" facs="tcp:48451:13"/> 1. That he is a <hi>Counſellor,</hi> and
+might not be <hi>queſtioned</hi> for any thing which he adviſed according
+to his <hi>conſcience;</hi> The <hi>ground</hi> is <hi>true,</hi> there is a
+<hi>liberty</hi> belongs to <hi>Counſellors,</hi> and nothing corrupts
+Counſels more then <hi>fear; He</hi> that will have the priviledge of a
+<hi>Counſellor,</hi> muſt keep within the iuſt bounds of a
+<hi>Counſellor;</hi> thoſe <hi>matters</hi> are the proper
+<hi>ſubjects</hi> of <hi>Counſell,</hi> which in their times and
+occaſions, may be good or beneficiall to the <hi>King</hi> or
+<hi>Common-wealth;</hi> But ſuch <hi>Treaſons</hi> as theſe, the
+<hi>ſubverſion</hi> of the <hi>Laws, violation</hi> of <hi>Liberties,</hi>
+they can never be good, or juſtifi<g ref="char:EOLhyphen"/>able by any <hi>circumſtance,</hi> or
+<hi>occaſion;</hi> and therefore his being a <hi>Counſellor,</hi> makes his
+fault much more hainous, as being commit<g ref="char:EOLhyphen"/>ted againſt a greater
+<hi>Truſt,</hi> and in a way of much miſchiefe and danger, leſt his
+Majeſties conſcience and judgement (upon which the whole courſe and frame
+of his <hi>Government</hi> do much depend) ſhould be poyſoned and infected
+with ſuch wicked principles and de<g ref="char:EOLhyphen"/>ſignes: And this he hath endeavoured to
+doe, which by all <hi>Lawes,</hi> and in all <hi>times</hi> hath in this
+<hi>Kingdome</hi> beene reckoned
+<pb n="23" facs="tcp:48451:13"/> a <hi>Crime</hi> of an <hi>high
+Nature.</hi>
+            </p>
+            <p n="2">2. He labours to <hi>intereſt</hi> your Lordſhips in his
+<hi>cauſe,</hi> by alledging, It may be <hi>dangerous</hi> to your ſelves,
+and your <hi>Poſterity,</hi> who by your <hi>birth</hi> are fitteſt to be
+near his Majeſty, in places of <hi>Truſt</hi> and <hi>Authority,</hi> if
+you ſhould be ſubject to be <hi>queſtioned</hi> for <hi>matters</hi>
+delive<g ref="char:EOLhyphen"/>red in <hi>Counſell.</hi> To this was anſwered, that it was
+<hi>hoped</hi> their Lordſhips would rather <hi>la<g ref="char:EOLhyphen"/>bour</hi> to ſecure
+themſelves, and their poſterity, in the exerciſe of their
+<hi>vertues,</hi> then of their <hi>vices,</hi> that ſo they might together
+with their own <hi>honour</hi> and <hi>greatneſſe,</hi> preſerve the
+<hi>honour</hi> and <hi>greatneſſe,</hi> both of the <hi>King</hi> and
+<hi>Kingdome.</hi>
+            </p>
+            <p n="3">3. Another <hi>excuſe</hi> was this, that whatſo<g ref="char:EOLhyphen"/>ever he
+hath <hi>ſpoken</hi> was out of a <hi>good intenti<g ref="char:EOLhyphen"/>on;</hi> Sometimes
+<hi>good</hi> and <hi>evill, truth</hi> and <hi>fal<g ref="char:EOLhyphen"/>ſhood</hi> lie ſo near
+together, that they are hardly to be <hi>diſtinguiſhed:</hi> Matters
+<hi>hurtfull</hi> and <hi>dan<g ref="char:EOLhyphen"/>gerous</hi> may be accompanied with ſuch
+<hi>cir<g ref="char:EOLhyphen"/>cumſtances</hi> as may make it appeare uſefull and convenient, and
+in all ſuch <hi>caſes, good intenti<g ref="char:EOLhyphen"/>ons</hi> will juſtifie <hi>evill
+Counſell;</hi> But where the
+<pb n="24" facs="tcp:48451:14"/> matters propounded are <hi>evill</hi> in their
+own <hi>na<g ref="char:EOLhyphen"/>ture,</hi> ſuch as the <hi>matters</hi> are wherewith the
+<hi>E.</hi> of <hi>Strafford</hi> is charged, to <hi>break</hi> a <hi>publique
+faith,</hi> to <hi>ſubvert Laws</hi> and <hi>Government,</hi> they can never
+be juſtified by any intentions, how ſpecious, or good ſoever they be
+pretended.</p>
+            <p n="4">4. He <hi>alledgeth</hi> it was a time of great
+<hi>neceſsity</hi> and <hi>danger,</hi> when ſuch counſels were
+<hi>neceſſary</hi> for preſervation of the <hi>State. Ne<g ref="char:EOLhyphen"/>ceſsity</hi>
+hath been ſpoken of before, as it relates to the Cauſe; now it is
+conſidered as it relates to the Perſon; if there were any neceſſity, it
+was of his own making; he by his <hi>evil</hi> coun<g ref="char:EOLhyphen"/>ſell had brought the
+<hi>King</hi> into a neceſſity, and by no Rules of <hi>Iuſtice,</hi> can
+be <hi>allowed</hi> to gain this advantage by his own fault, as to make that a
+<hi>ground</hi> of his juſtification, which is a great part of his
+offence.</p>
+            <p n="5">5. He hath often <hi>inſinuated</hi> this, That it was for
+his Majeſties ſervice in <hi>maintenance</hi> of that Soveraign
+<hi>Power</hi> with which he is <hi>in<g ref="char:EOLhyphen"/>truſted</hi> by <hi>God</hi> for the
+<hi>good</hi> of his people. The Anſwer is this, No doubt but that Soveraign
+<pb n="25" facs="tcp:48451:14"/> Power wherewith his Majeſty is
+<hi>intruſted</hi> for the publique good, hath many glorious
+<hi>effects,</hi> the better to inable him thereunto; But without doubt this is
+none of them, That by his own will he may lay any <hi>Taxe</hi> or
+<hi>Impoſi<g ref="char:EOLhyphen"/>tion</hi> upon his people without their conſent in
+<hi>Parliament.</hi> This hath now been five times adjudged by both
+<hi>Houſes:</hi> In the Caſe of the <hi>Loanes,</hi> In condemning the
+<hi>Commiſsion</hi> of <hi>Exciſe,</hi> In the Reſolution upon the
+<hi>Sa<g ref="char:EOLhyphen"/>ving</hi> offered to be added to the <hi>Petition</hi> of
+<hi>Right,</hi> In the ſentence againſt <hi>Manwaring,</hi> and now lately,
+In condemning the <hi>Ship-money;</hi> And if the Soveraigne Power of the King
+can produce no ſuch <hi>effect</hi> as this, the <hi>Allegation</hi> of it is
+an Aggravation, and no Diminution of his offence, becauſe thereby he doth
+labour to intereſt the King againſt the juſt grievance and complaint of
+the People.</p>
+            <p n="6">6. This <hi>Counſell</hi> was propounded with divers
+<hi>limitations,</hi> and <hi>Proviſions;</hi> for ſecu<g ref="char:EOLhyphen"/>ring and repairing
+the <hi>liberty</hi> of the <hi>people.</hi> This implies a
+<hi>contradiction</hi> to maintain an <hi>Arbitrary</hi> &amp; abſolute
+Power, and yet to reſtrain it with
+<pb n="26" facs="tcp:48451:15"/> 
+               <hi>limitations,</hi> and
+<hi>proviſions;</hi> for even thoſe <hi>limi<g ref="char:EOLhyphen"/>tations</hi> and
+<hi>proviſions</hi> will be ſubject to the ſame abſolute
+<hi>Power,</hi> and to be diſpenſed in ſuch manner, and at ſuch time,
+as it ſelf ſhall determine; let the <hi>grievances</hi> and
+<hi>oppreſsions</hi> be never ſo heavy, the <hi>Subject</hi> is left
+without all remedy, but at his Majeſties own pleaſure.</p>
+            <p n="7">7. He alledgeth, they were but <hi>words,</hi> and no
+<hi>effect</hi> followed: This needs no anſwer, but that the <hi>miſerable
+diſtempers</hi> into which he hath brought all the three Kingdomes, will be
+evidence ſufficient that his wicked <hi>Coun<g ref="char:EOLhyphen"/>ſels</hi> have had ſuch
+<hi>miſchievous</hi> effects within theſe two or three laſt years, that
+many years peace will hardly repaire thoſe loſſes, and other great
+miſchiefes which the <hi>Common-wealth</hi> hath ſuſtained.</p>
+            <p>Theſe excuſes have been collected out of the ſeverall parts
+of his <hi>Defence;</hi> perchance ſome others are omitted, which I doubt not
+have been anſwered by ſome of my Col<g ref="char:EOLhyphen"/>legues, and are of no importance,
+either to perplex or to hinder your Lordſhips judge<g ref="char:EOLhyphen"/>ment,
+<pb n="27" facs="tcp:48451:15"/> touching the hainouſneſſe of this
+Crime.</p>
+            <p>The ninth <hi>Conſideration</hi> is this, That if
+<milestone type="tcpmilestone" unit="unspecified" n="9"/> this be <hi>Treaſon,</hi> in the nature of it, it doth
+ex<g ref="char:EOLhyphen"/>ceed all other <hi>Treaſons</hi> in this, That in the Deſign, and
+endeavour of the Author, it was to be a <hi>conſtant</hi> and a <hi>permanent
+Treaſon;</hi> other Treaſons are tranſient, as being confinde within
+thoſe particular <hi>actions</hi> and <hi>proportions</hi> wherein they did
+conſiſt, and thoſe being paſt, the <hi>Treaſon</hi> ceaſeth.</p>
+            <p>The <hi>Powder-Treaſon</hi> was full of horror and malignity,
+yet it is paſt many years ſince; The <hi>murder</hi> of that
+<hi>Magnanimous</hi> and <hi>glorious King, Henry the fourth</hi> of
+<hi>France,</hi> was a great and horrid <hi>Treaſon;</hi> And ſo were
+thoſe manifold attempts againſt Qu. <hi>Elizabeth</hi> of bleſſed
+me<g ref="char:EOLhyphen"/>mory; but they are long ſince paſt, the <hi>Dete<g ref="char:EOLhyphen"/>ſtation</hi> of them
+only remains in <hi>Hiſtories,</hi> and in the <hi>minds</hi> of men; and
+will ever remain; But this <hi>Treaſon,</hi> if it had taken effect, was to
+be a ſtanding, perpetuall <hi>Treaſon,</hi> which would have been in
+<hi>continuall act,</hi> not <hi>determi<g ref="char:EOLhyphen"/>ned</hi> within one <hi>time</hi> or
+<hi>age,</hi> but <hi>tranſmitted</hi> to <hi>Poſterity,</hi> even from
+<hi>generation</hi> to <hi>generation.</hi>
+            </p>
+            <p>
+               <pb n="28" facs="tcp:48451:16"/> The tenth <hi>Conſideration</hi> is this,
+That as it is <milestone type="tcpmilestone" unit="unspecified" n="10"/> a Crime odious in the nature of it, ſo it
+is odi<g ref="char:EOLhyphen"/>ous in the judgement and eſtimation of the <hi>Law;</hi> To alter the
+ſetled <hi>frame</hi> and <hi>conſtitution</hi> of <hi>Government,</hi> is
+<hi>Treaſon</hi> in any <hi>eſtate;</hi> The <hi>Laws</hi> whereby all
+other parts of a Kingdome are preſerved, ſhould be very vain and
+defe<g ref="char:EOLhyphen"/>ctive, if they had not a <hi>power</hi> to ſecure and pre<g ref="char:EOLhyphen"/>ſerve
+<hi>themſelves.</hi>
+            </p>
+            <p>The <hi>forfeitures</hi> inflicted for <hi>Treaſon</hi> by our
+Law, are of <hi>Life, Honour,</hi> and <hi>Eſtate,</hi> even all that can be
+<hi>forfeited,</hi> and this Priſoner having committed ſo many Treaſons,
+al<g ref="char:EOLhyphen"/>though he ſhould pay all theſe <hi>forfeitures,</hi> will be ſtill a
+Debtor to the <hi>Common-wealth:</hi> Nothing can be more equall then that he
+ſhould periſh by the Juſtice of that Law which he would have ſubverted;
+Neither wil this be a new way of bloud; There are marks enough to trace this
+Law to the very origi<g ref="char:EOLhyphen"/>nall of this Kingdome: And if it hath not been put in
+execution, as he alledgeth, this 240. years, it was not for want of Law, but
+that all that time hath not bred a man bold enough to commit ſuch Crimes as
+theſe;
+<pb n="29" facs="tcp:48451:16"/> which is a <hi>circumſtance</hi> much
+aggravating his offence, and making him no whit leſſe liable to
+puniſhment, becauſe he is the onely man that in ſo long a time hath
+ventured upon ſuch a <hi>Treaſon</hi> as this.</p>
+            <p>It belongs to the charge of another to make it appear to your
+Lordſhips, that the Crimes and Offences proved againſt the <hi>Earle</hi>
+of <hi>Strafford,</hi> are <hi>High Treaſon</hi> by the Lawes and Statutes of
+this Realm, whoſe learning and other abilities are much better for that
+ſervice. But for the time and manner of performing this, we are to reſort
+to the <hi>Direction</hi> of the <hi>Houſe of Commons,</hi> having in this
+which is al<g ref="char:EOLhyphen"/>ready done, diſpatched all thoſe inſtructions which wee have
+received; and concerning further proceedings, for clearing all Queſti<g ref="char:EOLhyphen"/>ons and
+Objections in Law, your Lordſhips will hear from the <hi>Houſe</hi> of
+<hi>Commons</hi> in con<g ref="char:EOLhyphen"/>venient time.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
